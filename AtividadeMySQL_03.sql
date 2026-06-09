@@ -1,5 +1,5 @@
 SELECT Quantity AS 'Ordem p/quantidade',
-	     ProductID AS 'ID do Produto',
+	   ProductID AS 'ID do Produto',
        OrderID AS 'ID da ordem'
 FROM OrderDetails
 WHERE ProductID >= 5 AND ProductID <= 15
